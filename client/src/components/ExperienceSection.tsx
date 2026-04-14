@@ -10,10 +10,10 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const companyLinks: Record<string, string> = {
   "Astra Protocol": "https://astraprotocol.com",
   "Delnorte Terra Vision": "https://delnorte.io",
-  "Aimetk": "https://aimetk.com",
+
   "InvoiceMate": "https://invoicemate.io",
   "Bloctech Solutions": "https://bloctech.io",
-  "Levelstech Solutions": "https://levelstech.com",
+
 };
 
 const getCompanyLink = (company: string): string => {
@@ -24,7 +24,7 @@ const experiences = [
   {
     company: "Astra Protocol",
     role: "Senior Blockchain Developer",
-    period: "Aug 2025 – Dec 2025",
+    period: "Aug 2025 – Mar 2026",
     location: "Onsite",
     current: true,
     color: "#00D4FF",
@@ -51,24 +51,11 @@ const experiences = [
     ],
     tags: ["ERC-20 Tokens", "HashLock Audit", "MEXC Exchange", "Ethereum Mainnet", "CRM Contracts"],
   },
-  {
-    company: "Aimetk",
-    role: "Senior Blockchain Developer",
-    period: "Nov 2024 – Feb 2025",
-    location: "Onsite",
-    current: false,
-    color: "#00D4FF",
-    achievements: [
-      "Contributed to XperiencePay — a blockchain-integrated e-commerce platform for luxury goods (yachts, private jets, rare art).",
-      "Developed and deployed smart contracts enabling secure transactions, token integration, and governance mechanisms.",
-      "Integrated Uniswap V3 for token swapping across ~10 cryptocurrencies and Chainlink oracles for real-time price feeds.",
-    ],
-    tags: ["Uniswap V3", "Chainlink Oracles", "Governance Contracts", "E-Commerce DApp", "Token Integration"],
-  },
+
   {
     company: "InvoiceMate",
     role: "Senior Blockchain Developer",
-    period: "Mar 2024 – Oct 2024",
+    period: "Mar 2024 – Feb 2025",
     location: "Onsite",
     current: false,
     color: "#F4C430",
@@ -76,13 +63,16 @@ const experiences = [
       "Built a decentralized credit protocol with KYI (Know Your Investor) for invoice financing — turning risk-scored invoices into financial instruments.",
       "Designed and deployed the DEFA governance token for InvoiceMate's lending pools.",
       "Integrated smart contracts with multi-wallet frontend across BSC, Arbitrum, HAQQ, and IOTA networks.",
+      "Contributed to XperiencePay — a blockchain-integrated e-commerce platform for luxury goods (yachts, private jets, rare art).",
+      "Developed and deployed smart contracts enabling secure transactions, token integration, and governance mechanisms.",
+      "Integrated Uniswap V3 for token swapping across ~10 cryptocurrencies and Chainlink oracles for real-time price feeds.",
     ],
-    tags: ["DeFi Credit Protocol", "DEFA Token", "KYI", "BSC", "Arbitrum", "HAQQ", "IOTA"],
+    tags: ["DeFi Credit Protocol", "DEFA Token", "KYI", "BSC", "Arbitrum", "HAQQ", "IOTA", "Uniswap V3", "Chainlink Oracles"],
   },
   {
     company: "Bloctech Solutions",
     role: "Blockchain Developer",
-    period: "Feb 2023 – Jan 2024",
+    period: "Mar 2021 – Jan 2024",
     location: "Onsite",
     current: false,
     color: "#00D4FF",
@@ -90,21 +80,10 @@ const experiences = [
       "Developed DApps including staking platforms, NFT marketplaces, and ICOs using Hardhat and Remix IDE.",
       "Gained hands-on experience with presale, staking, multi-staking, ROI contracts, reflection tokens, stablecoins, and referral systems.",
       "Deployed across Ethereum and Binance Smart Chain (BSC) EVM-compatible networks.",
-    ],
-    tags: ["Staking Platforms", "NFT Marketplace", "ICO", "Hardhat", "BSC", "Ethereum"],
-  },
-  {
-    company: "Levelstech Solutions",
-    role: "Blockchain Developer",
-    period: "Mar 2021 – Dec 2022",
-    location: "Onsite",
-    current: false,
-    color: "#00D4FF",
-    achievements: [
       "Built deep understanding of Solidity, contract security best practices, gas optimization, and upgradability patterns.",
       "Studied blockchain architecture, consensus mechanisms, financial markets, and cryptographic concepts.",
     ],
-    tags: ["Solidity", "Gas Optimization", "Upgradability Patterns", "Cryptography"],
+    tags: ["Staking Platforms", "NFT Marketplace", "ICO", "Hardhat", "BSC", "Ethereum", "Solidity", "Gas Optimization", "Cryptography"],
   },
 ];
 

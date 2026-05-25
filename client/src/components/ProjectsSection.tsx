@@ -30,7 +30,7 @@ const projects = [
     tags: ["Solidity", "ECDSA", "BIP-39", "1inch API", "Uniswap", "MoonPay", "Ethers.js", "Solana", "React"],
     highlights: [
       "Zero private key server storage — fully non-custodial",
-      "Multi-chain: EVM (ETH, BSC, Polygon, Arbitrum) + Solana",
+      "Multi-chain: EVM (ETH, BSC, Polygon, Arbitrum) + Solana + Bitcoin",
       "Aggregated swaps via 1inch across 10+ EVM networks",
       "Fiat on-ramp via MoonPay integration",
     ],

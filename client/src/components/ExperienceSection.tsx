@@ -8,6 +8,7 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const companyLinks: Record<string, string> = {
+  "Omnisoft (MIREX)": "https://mirex.io/",
   "Astra Protocol": "https://astraprotocol.com",
   "Delnorte Terra Vision": "https://delnorte.io",
 
@@ -21,10 +22,24 @@ const getCompanyLink = (company: string): string => {
 };
 
 const experiences = [
+   {
+    company: "Omnisoft (MIREX)",
+    role: "Senior Blockchain Developer",
+    period: "Mar 2026 – Present",
+    location: "Onsite",
+    current: true,
+    color: "#00D4FF",
+    achievements: [
+      "Designed a robust, multi-currency presale contract for the MIREX token, integrating complex payment routing to accept BTC, ETH, USDT, and BNB, driving a $70K raise in the initial 15 days.",
+      "Maintained strict security standards and gas optimization protocols for immutable smart contracts during high-throughput fundraising phases.",
+      "Currently leading the development of the ecosystem's tokenization infrastructure, defining smart contract specifications for asset-backed tokens.",
+    ],
+    tags: ["tokenisation", "BSC", "chainlink", "RWA", "MIREX", "EVM"],
+  },
   {
     company: "Astra Protocol",
     role: "Senior Blockchain Developer",
-    period: "Aug 2025 – Mar 2026",
+    period: "Aug 2025 – Feb 2026",
     location: "Onsite",
     current: true,
     color: "#00D4FF",
